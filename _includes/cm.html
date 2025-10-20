@@ -1,0 +1,12 @@
+<div class="cm-grid">
+  <div class="cm-chart">
+    <div class="cm-inner">
+      <img src="{{ include.img | relative_url }}" alt="{{ include.alt }}">
+    </div>
+  </div>
+  <div class="cm-metrics">
+    {% if include.metrics %}
+      <pre><code>{{ include.metrics | strip | escape }}</code></pre>
+    {% endif %}
+  </div>
+</div>

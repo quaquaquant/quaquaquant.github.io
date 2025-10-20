@@ -1,0 +1,55 @@
+name: re
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+  deployments: write
+  pages: write
+  id-token: write
+
+jobs:
+  clean-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Clean up workflow runs
+        uses: dmvict/clean-workflow-runs@v1.2.2
+        with:
+          token: ${{ github.token }}
+          save_min_runs_number: 0
+          save_period: '00:00:00'
+
+      - name: Remove prior deployments
+        uses: strumwolf/delete-deployment-environment@v3
+        with:
+          token: ${{ github.token }}
+          environment: github-pages
+          onlyRemoveDeployments: true
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

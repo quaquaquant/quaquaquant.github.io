@@ -1,0 +1,5 @@
+theme: jekyll-theme-primer
+permalink: pretty
+
+kramdown:
+  toc_levels: 2..2
