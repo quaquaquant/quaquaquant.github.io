@@ -1,29 +1,29 @@
 Start                   2025-09-01 00:00:00
-End                     2025-11-12 14:04:39
-Duration                   72 days 14:04:39
-Exposure Time [%]                     58.34
-Equity Final [$]                       1193
-Equity Peak [$]                        1233
-Return [%]                            19.27
-Buy & Hold Return [%]                -3.132
-Return (Ann.) [%]                     161.5
-Volatility (Ann.) [%]                 73.38
-CAGR [%]                              142.6
-Sharpe Ratio                            2.2
-Sortino Ratio                         12.27
-Calmar Ratio                          19.28
-Max. Drawdown [%]                    -8.373
-Avg. Drawdown [%]                   -0.4605
-Max. Drawdown Duration     35 days 20:44:12
-Avg. Drawdown Duration      0 days 09:26:36
-# Trades                                 10
-Win Rate [%]                           70.0
+End                     2025-11-27 14:23:07
+Duration                   87 days 14:23:07
+Exposure Time [%]                     64.77
+Equity Final [$]                       1280
+Equity Peak [$]                        1438
+Return [%]                               28
+Buy & Hold Return [%]                -16.23
+Return (Ann.) [%]                     198.2
+Volatility (Ann.) [%]                 95.36
+CAGR [%]                              179.8
+Sharpe Ratio                          2.079
+Sortino Ratio                         12.62
+Calmar Ratio                          16.32
+Max. Drawdown [%]                    -12.14
+Avg. Drawdown [%]                   -0.4808
+Max. Drawdown Duration     37 days 19:10:39
+Avg. Drawdown Duration      0 days 06:46:05
+# Trades                                 13
+Win Rate [%]                          76.92
 Best Trade [%]                        8.646
 Worst Trade [%]                      -6.527
-Avg. Trade [%]                        1.805
+Avg. Trade [%]                        1.917
 Max. Trade Duration         9 days 19:50:45
-Avg. Trade Duration         4 days 05:37:39
-Profit Factor                         3.223
-Expectancy [%]                        1.891
-SQN                                   1.371
-Kelly Criterion                      0.4863
+Avg. Trade Duration         4 days 08:44:21
+Profit Factor                         3.214
+Expectancy [%]                        2.005
+SQN                                   1.602
+Kelly Criterion                      0.5203

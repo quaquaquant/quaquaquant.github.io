@@ -1,29 +1,29 @@
 Start                   2025-11-01 00:00:04
-End                     2025-11-19 08:05:36
-Duration                   18 days 08:05:32
-Exposure Time [%]                     53.44
-Equity Final [$]                       1022
+End                     2025-11-27 14:23:07
+Duration                   26 days 14:23:03
+Exposure Time [%]                     35.76
+Equity Final [$]                       1021
 Equity Peak [$]                        1055
-Return [%]                            2.219
-Buy & Hold Return [%]                -24.88
-Return (Ann.) [%]                     52.43
-Volatility (Ann.) [%]                 124.7
-CAGR [%]                              54.78
-Sharpe Ratio                         0.4205
-Sortino Ratio                         1.268
-Calmar Ratio                          3.641
+Return [%]                            2.066
+Buy & Hold Return [%]                -24.69
+Return (Ann.) [%]                     31.84
+Volatility (Ann.) [%]                 85.23
+CAGR [%]                              32.39
+Sharpe Ratio                         0.3736
+Sortino Ratio                         0.925
+Calmar Ratio                          2.211
 Max. Drawdown [%]                     -14.4
 Avg. Drawdown [%]                    -1.161
-Max. Drawdown Duration     11 days 04:57:57
-Avg. Drawdown Duration      0 days 11:21:55
+Max. Drawdown Duration     19 days 11:15:28
+Avg. Drawdown Duration      0 days 17:22:27
 # Trades                                  8
 Win Rate [%]                           62.5
 Best Trade [%]                        4.183
 Worst Trade [%]                      -6.427
-Avg. Trade [%]                       0.2747
+Avg. Trade [%]                       0.2559
 Max. Trade Duration         2 days 10:12:10
-Avg. Trade Duration         1 days 05:23:23
-Profit Factor                         1.226
-Expectancy [%]                       0.3449
-SQN                                   0.198
-Kelly Criterion                     0.09539
+Avg. Trade Duration         1 days 04:31:44
+Profit Factor                         1.214
+Expectancy [%]                       0.3255
+SQN                                  0.1853
+Kelly Criterion                     0.08977
