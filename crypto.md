@@ -9,6 +9,48 @@ layout: site
 * TOC
 {:toc}
 
+## XRPUSD November 2025
+
+**Training:** January 2024–October 2025  
+**Evaluation**: November 2025  
+**Fees**: fixed 0.05% roundtrip
+
+### Long-only
+
+{% capture xrpusd_long_metrics %}
+{% include metrics/crypto/xrpusd-long.txt %}
+{% endcapture %}
+
+{% include cm.html
+   img="/assets/charts/crypto/xrpusd-long.svg"
+   alt="XRPUSD long-only: price, equity, drawdown"
+   metrics=xrpusd_long_metrics
+%}
+
+### Short-only
+
+{% capture xrpusd_short_metrics %}
+{% include metrics/crypto/xrpusd-short.txt %}
+{% endcapture %}
+
+{% include cm.html
+   img="/assets/charts/crypto/xrpusd-short.svg"
+   alt="XRPUSD short-only: price, equity, drawdown"
+   metrics=xrpusd_short_metrics
+%}
+
+### Long/Short
+
+{% capture xrpusd_both_metrics %}
+{% include metrics/crypto/xrpusd-both.txt %}
+{% endcapture %}
+
+{% include cm.html
+   img="/assets/charts/crypto/xrpusd-both.svg"
+   alt="XRPUSD long/short: price, equity, drawdown"
+   metrics=xrpusd_both_metrics
+%}
+
 ## ETHUSD November 2025
 
 **Training:** January 2024–October 2025  
